@@ -1,0 +1,566 @@
+fileFormatVersion: 2
+guid: 45be8a688a15f814ca87f306a07e4183
+timeCreated: 1493625172
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: capsuleOrange0
+    21300002: capsuleOrange1
+    21300004: capsulePink0
+    21300006: capsulePink1
+    21300008: glowOrange2
+    21300010: glowBlue2
+    21300012: glowOrange1
+    21300014: glowBlue1
+    21300016: glowOrange0
+    21300018: glowBlue0
+    21300020: capsuleLime0
+    21300022: capsuleLime1
+    21300024: capsuleBlue0
+    21300026: capsuleBlue1
+    21300028: glowRed2
+    21300030: glowLime2
+    21300032: glowRed1
+    21300034: glowLime0
+    21300036: glowLime1
+    21300038: glowRed0
+    21300040: capsuleRed0
+    21300042: capsuleRed1
+    21300044: capsuleGreen0
+    21300046: capsuleGreen1
+    21300048: glowPink1
+    21300050: glowPink2
+    21300052: glowGreen2
+    21300054: glowPink0
+    21300056: glowGreen0
+    21300058: glowGreen1
+    21300060: capsulePurple0
+    21300062: capsulePurple1
+    21300064: glowPurple2
+    21300066: glowPurple0
+    21300068: glowPurple1
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: capsuleOrange0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 670
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: capsuleOrange1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 670
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: capsulePink0
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 670
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: capsulePink1
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 670
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowOrange2
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 675
+        width: 62
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowBlue2
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 675
+        width: 62
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowOrange1
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 673
+        width: 69
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowBlue1
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 673
+        width: 69
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowOrange0
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 674
+        width: 64
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowBlue0
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 674
+        width: 64
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: capsuleLime0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 462
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: capsuleLime1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 462
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: capsuleBlue0
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 462
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: capsuleBlue1
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 462
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowRed2
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 460
+        width: 62
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowLime2
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 455
+        width: 62
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowRed1
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 458
+        width: 69
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowLime0
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 454
+        width: 64
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowLime1
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 453
+        width: 69
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowRed0
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 459
+        width: 64
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: capsuleRed0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 242
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: capsuleRed1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 242
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: capsuleGreen0
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 242
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: capsuleGreen1
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 241
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowPink1
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 246
+        width: 69
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowPink2
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 248
+        width: 62
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowGreen2
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 238
+        width: 62
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowPink0
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 247
+        width: 64
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowGreen0
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 237
+        width: 64
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowGreen1
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 236
+        width: 69
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: capsulePurple0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 26
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: capsulePurple1
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 26
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowPurple2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 27
+        width: 62
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowPurple0
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 26
+        width: 64
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: glowPurple1
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 25
+        width: 69
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
