@@ -43,9 +43,13 @@ public class EnemyBeheviour : MonoBehaviour
         pathFind.CanMove = state;
 
         if (state)
+        {
             animator.SetTrigger(WAKE);
+        }
         else
+        {
             animator.SetTrigger(SHUT_DOWN);
+        }
     }
 
     private void OnPlayerEnter(PlayerDetectorBehaviour detec, PlayerInteractBehaviour player)

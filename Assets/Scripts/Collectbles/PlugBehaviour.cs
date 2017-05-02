@@ -62,10 +62,12 @@ public class PlugBehaviour : MonoBehaviour, ICollectble
 
     private PlayerInteractBehaviour m_currentPlayer;
 
+
     private void Awake()
     {
         playerDetector.callback_OnPlayerEnter += onPlayerEnter;
         playerDetector.callback_OnPlayerExit += onPlayerExit;
+
     }
 
     public void Drop()

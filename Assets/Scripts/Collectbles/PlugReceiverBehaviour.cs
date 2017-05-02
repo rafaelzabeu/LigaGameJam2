@@ -65,10 +65,16 @@ public class PlugReceiverBehaviour : MonoBehaviour, ICollectbleReceiver
     public ActivatedObjectBehaviour[] objsToActivate;
     public ActivatedObjectBehaviour[] objsToDeactivate;
 
+    private AudioClip plugAudio;
+    private AudioClip wrongSphere;
+
     private void Awake()
     {
         playerDetector.callback_OnPlayerEnter = onPlayerEnter;
         playerDetector.callback_OnPlayerExit = onPlayerExit;
+        plugAudio = Resources.Load<AudioClip>("SoundEffects/Sphere/JAM_takeOutSphere");
+        wrongSphere = Resources.Load<AudioClip>("SoundEffects/Sphere/JAM_esferaErrada");
+
     }
 
     private void Start()
@@ -80,7 +86,11 @@ public class PlugReceiverBehaviour : MonoBehaviour, ICollectbleReceiver
     public void ReceiveCollectble(ICollectble collectble)
     {
         if (currentCollectble != null || collectble.Group != Group)
+        {
+            AudioController.Instance.Play(wrongSphere, AudioController.SoundType.SoundEffect2D);
             return;
+        }
+        AudioController.Instance.Play(plugAudio, AudioController.SoundType.SoundEffect2D);
         collectble.OnReceived(this);
         currentCollectble = collectble;
         renderer.sprite = activeSprite;
@@ -92,6 +102,7 @@ public class PlugReceiverBehaviour : MonoBehaviour, ICollectbleReceiver
     {
         if (currentCollectble == null)
             return;
+        AudioController.Instance.Play(plugAudio, AudioController.SoundType.SoundEffect2D);
         currentCollectble.OnRemovedFromReceiver();
         player.CollectItem(currentCollectble);
         currentCollectble = null;

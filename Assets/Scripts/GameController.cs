@@ -7,9 +7,12 @@ public class GameController : MonoBehaviour {
 
     public new AudioClip audio;
 
+    public PlayerMovementBehaviour player;
+
 	void Start () {
-        InputSystem.AddControl(PlayerIndex.Player1, new GamePad1(XboxCtrlrInput.XboxController.First));
-        AudioController.Instance.Play(audio, AudioController.SoundType.SoundEffect2D);		
+        InputSystem.AddControl(PlayerIndex.Player1, new KeyBoard());
+        player.canMove = false;
+        AudioController.Instance.Play(audio, AudioController.SoundType.Music);		
 	}
 
     public void OnDie()

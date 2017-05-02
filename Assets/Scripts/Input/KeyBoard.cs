@@ -17,52 +17,52 @@ public class KeyBoard : IControl
 
     public bool Right
     {
-        get { return Input.GetKeyDown(KeyCode.D); }
+        get { return Input.GetKeyDown(KeyCode.RightArrow); }
     }
 
     public bool RightPressing
     {
-        get { return Input.GetKey(KeyCode.D); }
+        get { return Input.GetKey(KeyCode.RightArrow); }
     }
 
     public bool Up
     {
-        get { return Input.GetKeyDown(KeyCode.W); }
+        get { return Input.GetKeyDown(KeyCode.UpArrow); }
     }
 
     public bool UpPressing
     {
-        get { return Input.GetKey(KeyCode.W); }
+        get { return Input.GetKey(KeyCode.UpArrow); }
     }
 
     public bool Left
     {
-        get { return Input.GetKeyDown(KeyCode.A); }
+        get { return Input.GetKeyDown(KeyCode.LeftArrow); }
     }
 
     public bool LeftPresing
     {
-        get { return Input.GetKey(KeyCode.A); }
+        get { return Input.GetKey(KeyCode.LeftArrow); }
     }
 
     public bool Down
     {
-        get { return Input.GetKeyDown(KeyCode.S); }
+        get { return Input.GetKeyDown(KeyCode.DownArrow); }
     }
 
     public bool DownPressing
     {
-        get { return Input.GetKey(KeyCode.S); }
+        get { return Input.GetKey(KeyCode.DownArrow); }
     }
 
     public bool AngleUpDigital
     {
-        get { return Input.GetKey(KeyCode.A); }
+        get { return Input.GetKey(KeyCode.UpArrow); }
     }
 
     public bool AngleDownDigital
     {
-        get { return Input.GetKey(KeyCode.D); }
+        get { return Input.GetKey(KeyCode.DownArrow); }
     }
 
     public float AngleUpAnalogic
@@ -79,8 +79,8 @@ public class KeyBoard : IControl
     {
         get
         {
-            var x = Input.GetKey(KeyCode.D) ? 1 : (Input.GetKey(KeyCode.A)) ? -1 : 0;
-            var y = Input.GetKey(KeyCode.W) ? 1 : (Input.GetKey(KeyCode.S)) ? -1 : 0;
+            var x = Input.GetKey(KeyCode.RightArrow) ? 1 : (Input.GetKey(KeyCode.LeftArrow)) ? -1 : 0;
+            var y = Input.GetKey(KeyCode.UpArrow) ? 1 : (Input.GetKey(KeyCode.DownArrow)) ? -1 : 0;
 
             return new Vector2(x, y);
         }
@@ -131,7 +131,7 @@ public class KeyBoard : IControl
     {
         get
         {
-            return Input.GetKeyDown(KeyCode.Space);
+            return Input.GetKeyDown(KeyCode.UpArrow);
         }
     }
 
@@ -139,7 +139,7 @@ public class KeyBoard : IControl
     {
         get
         {
-            return Input.GetKey(KeyCode.Space);
+            return Input.GetKey(KeyCode.UpArrow);
         }
     }
 
@@ -155,7 +155,7 @@ public class KeyBoard : IControl
     {
         get
         {
-            return Input.GetKeyDown(KeyCode.C);
+            return Input.GetKeyDown(KeyCode.Space);
         }
     }
 
@@ -163,7 +163,7 @@ public class KeyBoard : IControl
     {
         get
         {
-            return Input.GetKeyDown(KeyCode.C);
+            return Input.GetKeyDown(KeyCode.DownArrow);
         }
     }
 

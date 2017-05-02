@@ -25,6 +25,15 @@ public class PlayerInteractBehaviour : MonoBehaviour
 
     public ICollectble currentCollectble;
 
+    private AudioClip pickUpAudio;
+    private AudioClip dropAudio;
+
+    private void Awake()
+    {
+        pickUpAudio = Resources.Load<AudioClip>("SoundEffects/Sphere/JAM_garbSphere");
+        dropAudio = Resources.Load<AudioClip>("SoundEffects/Sphere/JAM_dropSphere");
+    }
+
     private void Update()
     {
         if (CanInteract && InputSystem.Interact(playerIndex))
@@ -44,6 +53,7 @@ public class PlayerInteractBehaviour : MonoBehaviour
         if (InputSystem.Drop(playerIndex) && currentCollectble != null && currentCollectble.IsBeingHeld)
         {
             currentCollectble.Drop();
+            AudioController.Instance.Play(dropAudio, AudioController.SoundType.SoundEffect2D);
         }
     }
 
@@ -58,6 +68,7 @@ public class PlayerInteractBehaviour : MonoBehaviour
         movement.canDoubleJump = false;
         animator.SetTrigger(info.animation);
         animator.SetBool(IS_HOLDING_ITEM, true);
+        AudioController.Instance.Play(pickUpAudio, AudioController.SoundType.SoundEffect2D);
     }
 
     public void CollectItem(ICollectble collectble)
