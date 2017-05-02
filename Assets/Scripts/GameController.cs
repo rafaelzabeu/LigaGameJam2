@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
 
-    public AudioClip audio;
+    public new AudioClip audio;
 
 	void Start () {
         InputSystem.AddControl(PlayerIndex.Player1, new GamePad1(XboxCtrlrInput.XboxController.First));
